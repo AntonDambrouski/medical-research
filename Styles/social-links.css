@@ -1,0 +1,9 @@
+.social-links__item {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.social-links__link {
+  text-decoration: none;
+  color: black;
+}
