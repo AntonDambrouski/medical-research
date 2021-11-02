@@ -1,0 +1,5 @@
+.home-page .home_page__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

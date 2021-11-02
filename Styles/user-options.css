@@ -1,0 +1,37 @@
+.user-information-button__user-options {
+  position: absolute;
+  left: -100px;
+  top: 25px;
+}
+.user-options {
+  border: 1px solid rgb(212, 212, 212);
+  background-color: white;
+  text-align: center;
+  width: 100px;
+  transition: 1s linear;
+}
+
+.user-options__item {
+  padding: 10px 0px;
+}
+
+.user-options__item:first-child::after {
+  content: "";
+  position: absolute;
+  width: calc(100% - 20px);
+  bottom: 50%;
+  height: 1px;
+  left: 10px;
+  background-color: rgb(212, 212, 212);
+}
+
+.user-options__link {
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+  font-weight: normal;
+}
+
+.user-options_hidden {
+  visibility: hidden;
+  opacity: 0;
+}

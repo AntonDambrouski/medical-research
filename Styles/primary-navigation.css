@@ -1,0 +1,33 @@
+.primary-navigation__list {
+  display: flex;
+  border-top: 4px solid rgb(70, 130, 180);
+}
+
+.primary-navigation__item {
+  flex: 1;
+  text-align: center;
+}
+
+.primary-navigation__link {
+  display: inline-block;
+  width: 100%;
+  padding: 20px 0px;
+  text-decoration: none;
+  color: rgb(70, 130, 180);
+}
+
+.primary-navigation__link:not(.primary-navigation__link_active):hover {
+  background-color: rgb(235, 235, 235);
+  color: rgb(76, 141, 195);
+}
+
+.primary-navigation__link_active {
+  background-color: rgb(70, 130, 180);
+  color: white;
+}
+
+@media (max-width: 760px) {
+  .primary-navigation__list {
+    flex-direction: column;
+  }
+}
