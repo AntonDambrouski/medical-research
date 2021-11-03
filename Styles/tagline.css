@@ -1,0 +1,29 @@
+.tagline__tagline-container {
+  background: url("../src/img/tagline/tagline.jpg") center center no-repeat
+    fixed;
+  background-size: cover;
+  margin: 0px 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 650px;
+}
+
+.tagline__image {
+  max-width: 100%;
+}
+
+.tagline__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+  word-wrap: break-word;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tagline__text {
+  color: white;
+}

@@ -2,10 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .home-page__footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
 }
