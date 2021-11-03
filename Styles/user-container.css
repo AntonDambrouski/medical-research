@@ -1,0 +1,37 @@
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-container__user-logo {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 1rem;
+  color: rgb(70, 130, 180);
+}
+
+.user-container__user-name {
+  padding: 0px 15px;
+  color: rgb(70, 130, 180);
+}
+
+.user-information-button {
+  color: rgb(70, 130, 180);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.user-container__user-information-button {
+  position: relative;
+}
