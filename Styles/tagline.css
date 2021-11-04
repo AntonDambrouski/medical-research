@@ -17,13 +17,14 @@
 
 .tagline__title {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-weight: bold;
   color: white;
-  word-wrap: break-word;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .tagline__text {
   color: white;
+  text-align: center;
 }
