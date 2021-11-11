@@ -1,0 +1,20 @@
+.current-topics {
+  background-color: rgba(243, 252, 251, 0.986);
+}
+
+.current-topics__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.current-topics__title {
+  font-size: 1.8rem;
+  color: rgb(70, 130, 180);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
