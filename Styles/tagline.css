@@ -2,7 +2,6 @@
   background: url("../src/img/tagline/tagline.jpg") center center no-repeat
     fixed;
   background-size: cover;
-  margin: 0px 5px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
