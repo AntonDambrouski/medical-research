@@ -1,0 +1,33 @@
+.contact-information {
+  width: 50%;
+}
+
+.contact-information__title {
+  font-size: 1.8rem;
+  color: rgb(70, 130, 180);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-information__text {
+  text-align: center;
+  overflow-wrap: break-word;
+  margin-bottom: 20px;
+}
+
+.contact-information__link {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 760px) {
+  .contact-information {
+    width: 100%;
+  }
+
+  .contact-information__title {
+    font-size: 1.6rem;
+  }
+}
